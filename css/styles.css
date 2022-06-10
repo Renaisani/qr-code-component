@@ -1,0 +1,47 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: inherit;
+    place-items: center;
+}
+
+.box {
+    width: 350px;
+    height: 540px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+
+img, .box {
+    border-radius: 15px;
+}
+
+img {
+    max-width: 90%;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.text {
+    padding: 0px 20px 10px;
+}
+
